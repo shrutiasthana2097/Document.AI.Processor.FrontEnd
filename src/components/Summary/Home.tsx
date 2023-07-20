@@ -7,6 +7,9 @@ const Homepage = () => {
     const NavigateToSummary = ()=>{
         navigate('/summary');   
     }
+    const NavigateToNamedEntities = ()=>{
+        navigate('/namedentities');   
+    }
 
   return (
     
@@ -62,7 +65,7 @@ const Homepage = () => {
                     </Card>
             </Grid>
             <Grid item xs={4}>
-                <Card onClick={NavigateToSummary} variant="elevation" 
+                <Card onClick={NavigateToNamedEntities} variant="elevation" 
                 sx={{backgroundColor:'white',
                 maxWidth:345,
                 padding:"5px",
